@@ -13196,14 +13196,36 @@ textarea.form-control {
   }
 }
 
-/* map section starts here ...! */
-/* 
-.map {
-  margin-top: 4%;
+.google-maps {
+  position: relative;
+  /* padding-bottom: 75%; */
+
+  height: 60vh;
+  overflow: hidden;
+  margin-bottom: -28px;
+}
+.google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  /* height: 100% !important; */
 }
 
-@media screen and (max-width: 990px) {
-  .map {
-    width: 200px;
-  }
-} */
+/* wats app starts here...! */
+.watsapp {
+  /* position: fixed; */
+  /* height: 100px;
+    width: 100px; */
+  position: fixed;
+  cursor: pointer;
+  bottom: 40px;
+  right: 20px;
+  left: 0px;
+  height: 61px;
+  width: 61px;
+  z-index: 999;
+}
+
+/* 
+watsapp ends here ...! */
