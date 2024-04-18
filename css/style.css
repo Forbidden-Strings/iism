@@ -4751,8 +4751,7 @@ input[type="button"].btn-block {
   justify-content: space-between;
 }
 
-
-.golu{
+.golu {
   background-color: #e449ad;
 }
 /* 
@@ -13196,3 +13195,15 @@ textarea.form-control {
     stroke-dashoffset: -136px;
   }
 }
+
+/* map section starts here ...! */
+/* 
+.map {
+  margin-top: 4%;
+}
+
+@media screen and (max-width: 990px) {
+  .map {
+    width: 200px;
+  }
+} */
