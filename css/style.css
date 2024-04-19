@@ -13244,3 +13244,63 @@ watsapp ends here ...! */
     text-align: left;
   }
 }
+
+.et_pb_text ol { 
+counter-reset: item;
+list-style-type: none;
+}
+
+.et_pb_text ol li { 
+display: block; 
+}
+
+.et_pb_text ol li:before { 
+content: counter(item)"."; 
+counter-increment: item; 
+}
+
+.et_pb_text ol li:before{
+position: absolute;
+margin-left: -70px;
+font: bold italic 45px/1.5 Helvetica, Verdana, sans-serif;
+color: #ccc;
+}
+
+.et_pb_text ol li{
+font: 18px Open Sans, sans-serif;
+line-height:32px;
+padding-left: 60px;
+color: #000;
+position: relative;
+}
+
+.et_pb_text li p{
+font: 14px Open Sans, sans-serif;
+line-height:20px;
+color: #555;
+}
+
+.et_pb_text ol{
+max-width:500px;
+text-align:justify;
+}
+
+.et_pb_text ol li {
+text-indent: 0 !important;
+padding-left: 20px !important;
+list-style-position: outside;
+margin-left: 20px;
+list-style-type: number;
+}
+
+.et_pb_text ol li {
+text-indent: 0 !important;
+padding-left: 20px !important;
+list-style-position: outside;
+margin-left: 20px;
+padding-bottom:30px;
+}
+
+.et_pb_text ol {
+margin-left: 20px;
+}
