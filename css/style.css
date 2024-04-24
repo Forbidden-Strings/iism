@@ -13345,3 +13345,13 @@ watsapp ends here ...! */
 .et_pb_text ol {
   margin-left: 20px;
 }
+
+.section-layer{
+  height: 55vh;
+  width: 100%;
+  
+  background: url("/images/4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
