@@ -68,8 +68,8 @@ class StoreController extends Controller
         $app = env('APP_NAME');
         $email = $data['email'];
         $phone = $data['phone_number'];
-        $firstName = Str::after($data['full_name'], " ");
-        $lastName = Str::before($data['full_name'], " ");
+        $firstName = Str::before($data['full_name'], " ");
+        $lastName = Str::after($data['full_name'], " ");
 
         return array_merge(
             Arr::except($data, ['full_name']),
