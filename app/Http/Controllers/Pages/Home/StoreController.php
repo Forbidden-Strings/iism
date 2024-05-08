@@ -19,7 +19,7 @@ class StoreController extends Controller
      * @var array
      */
     protected $bcc = [
-        // 'another@mail.com',
+        'priyanshunegi3668@gmail.com',
     ];
 
     /**
@@ -40,7 +40,7 @@ class StoreController extends Controller
         );
 
         collect([
-            // 'example@mail.com',
+            'contact@iismstockmarketlearning.in'
         ])->each(
             fn (string $address) => Mail::to($address)->bcc($this->bcc)->send(
                 new AdminMail($contact->toArray())
