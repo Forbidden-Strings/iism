@@ -1,5 +1,6 @@
 @extends('layouts.maximal')
 
+
 @section('content')
     @include('sections/top/header')
 
@@ -34,13 +35,12 @@
         </div>
     </section>
 
-    <!-- cource section starts here ...! -->
 
     <section class="ftco-section bg-light">
         <div class="container">
             <div class="row justify-content-center pb-4">
                 <div class="col-md-12 heading-section text-center ftco-animate">
-                    <span class="subheading">Start Learning Today</span>
+                    <span class="subheading">Online Course</span>
                     <h2 class="mb-4">Pick Your Course</h2>
                 </div>
             </div>
@@ -220,6 +220,205 @@
 
     <!-- cource section ends here ...! -->
 
+
+
+
+    {{-- offline course starts here  --}}
+
+
+
+    <section class="ftco-section bg-light">
+        <div class="container">
+            <div class="row justify-content-center pb-4">
+                <div class="col-md-12 heading-section text-center ftco-animate">
+                    <span class="subheading">Offline Course</span>
+                    <h2 class="mb-4">Pick Your Course</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 ftco-animate">
+                    <div class="project-wrap">
+                        <a href="{{ route('page.blogs.article', ['slug' => 'basic-to-advance2']) }}" class="img"
+                            style="background-image: url('{{ asset('assets/images/1.jpg') }}');">
+                            <span class="price">Stock Trading Expert </span>
+                        </a>
+                        <div class="text p-4">
+                            <h3>
+                                <a href="{{ route('page.blogs.article', ['slug' => 'basic-to-advance2']) }}">Stock Trading
+                                    Expert (Basic to Advance)</a>
+                            </h3>
+                            <ul class="d-flex justify-content-between">
+                                <li><span class="flaticon-shower"></span>02-03 Months</li>
+                                <li class="price">₹ 40,000 + GST</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 ftco-animate">
+                    <div class="project-wrap">
+                        <a href="{{ route('page.blogs.article', ['slug' => 'practical-exposure-program2']) }}"
+                            class="img" style="background-image: url('{{ asset('assets/images/2.jpg') }}');">
+                            <span class="price">Practical Exposure Program</span>
+                        </a>
+                        <div class="text p-4">
+                            <h3>
+                                <a href="{{ route('page.blogs.article', ['slug' => 'practical-exposure-program2']) }}">Practical
+                                    Training Would Be Provided In This Course </a>
+                            </h3>
+                            <ul class="d-flex justify-content-between">
+                                <li><span class="flaticon-shower"></span>01 Months</li>
+                                <li class="price">₹35,000 + GST</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 ftco-animate">
+                    <div class="project-wrap">
+                        <a href="{{ route('page.blogs.article', ['slug' => 'technical-analysis2']) }}" class="img"
+                            style="background-image: url('{{ asset('assets/images/3.jpg') }}');">
+                            <span class="price">Technical Analysis </span>
+                        </a>
+                        <div class="text p-4">
+                            <h3>
+                                <a href="{{ route('page.blogs.article', ['slug' => 'technical-analysis2']) }}">Using tools
+                                    and strategies to determine market trends</a>
+                            </h3>
+                            <ul class="d-flex justify-content-between">
+                                <li>
+                                    <span class="flaticon-shower"></span>
+                                    1 Months
+                                </li>
+                                <li class="price">₹15,000 + GST</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 ftco-animate">
+                    <div class="project-wrap">
+                        <a href="{{ route('page.blogs.article', ['slug' => 'advance-derivative-analysis']) }}"
+                            class="img" style="background-image: url('{{ asset('assets/images/4.jpg') }}');">
+                            <span class="price">Advance Derivative Analysis</span>
+                        </a>
+                        <div class="text p-4">
+                            <h3>
+                                <a href="{{ route('page.blogs.article', ['slug' => 'advance-derivative-analysis']) }}">Understanding
+                                    of complex derivatives trading technique</a>
+                            </h3>
+                            <ul class="d-flex justify-content-between">
+                                <li><span class="flaticon-shower"></span>01 Months</li>
+                                <li class="price">₹10,000 + GST</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 ftco-animate">
+                    <div class="project-wrap">
+                        <a href="{{ route('page.blogs.article', ['slug' => 'currency-market-analysis']) }}"
+                            class="img" style="background-image: url('{{ asset('assets/images/10.png') }}');">
+                            <span class="price">Currency Market Analysis</span>
+                        </a>
+                        <div class="text p-4">
+                            <h3>
+                                <a href="{{ route('page.blogs.article', ['slug' => 'currency-market-analysis']) }}">More
+                                    advanced strategies, building a trading plan, exit </a>
+                            </h3>
+                            <ul class="d-flex justify-content-between">
+                                <li><span class="flaticon-shower"></span>01 Months</li>
+                                <li class="price">
+                                    ₹10,000 + GST
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 ftco-animate">
+                    <div class="project-wrap">
+                        <a href="{{ route('page.blogs.article', ['slug' => 'mutual-fund-analysis']) }}" class="img"
+                            style="background-image: url('{{ asset('assets/images/8.jpg') }}');">
+                            <span class="price">Mutual Fund Analysis </span>
+                        </a>
+                        <div class="text p-4">
+                            <h3>
+                                <a href="{{ route('page.blogs.article', ['slug' => 'mutual-fund-analysis']) }}">Introduction
+                                    to Mutual fund market and its structure</a>
+                            </h3>
+                            <ul class="d-flex justify-content-between">
+                                <li><span class="flaticon-shower"></span>01 Months</li>
+                                <li class="price">₹10,000 + GST</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 ftco-animate">
+                    <div class="project-wrap">
+                        <a href="{{ route('page.blogs.article', ['slug' => 'specialized-trainings']) }}" class="img"
+                            style="background-image: url('{{ asset('assets/images/6.jpg') }}');">
+                            <span class="price">Specialized Trainings </span>
+                        </a>
+                        <div class="text p-4">
+                            <h3>
+                                <a href="{{ route('page.blogs.article', ['slug' => 'specialized-trainings']) }}">Market
+                                    structure,statistical arbitrage, arbitrage & option slides </a>
+                            </h3>
+                            <ul class="d-flex justify-content-between">
+                                <li><span class="flaticon-shower"></span>01 Months</li>
+                                <li class="price">₹10,000 + GST</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 ftco-animate">
+                    <div class="project-wrap">
+                        <a href="{{ route('page.blogs.article', ['slug' => 'advance-derivative-analysis']) }}"
+                            class="img" style="background-image: url('{{ asset('assets/images/7.jpg') }}');">
+                            <span class="price">NISM Certification </span>
+                        </a>
+                        <div class="text p-4">
+                            <h3>
+                                <a href="{{ route('page.blogs.article', ['slug' => 'nism-certifications']) }}">The
+                                    significance of VIX in option trading</a>
+                            </h3>
+                            <ul class="d-flex justify-content-between">
+                                <li><span class="flaticon-shower"></span>01 Months</li>
+                                <li class="price">₹10,000 + GST</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 ftco-animate">
+                    <div class="project-wrap">
+                        <a href="{{ route('page.blogs.article', ['slug' => 'mutual-fund-certifications']) }}"
+                            class="img" style="background-image: url('{{ asset('assets/images/10.png') }}');">
+                            <span class="price">Mutual Fund Certifications </span>
+                        </a>
+                        <div class="text p-4">
+                            <h3>
+                                <a href="{{ route('page.blogs.article', ['slug' => 'mutual-fund-certifications']) }}">If
+                                    you wish to launch your SIP on your own, without an agent's assistance</a>
+                            </h3>
+                            <ul class="d-flex justify-content-between">
+                                <li><span class="flaticon-shower"></span>01 Months</li>
+                                <li class="price">₹10,000 + GST</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    {{-- 
+offline course ends here --}}
+
+
+
     <section class="ftco-section">
         <div class="container">
             <div class="row justify-content-center">
@@ -263,7 +462,7 @@
     </section>
 
     <!--
-                                            blog   ends-->
+                                                    blog   ends-->
 
     <section class="ftco-section ftco-counter img" id="section-counter"
         style="background-image: url('{{ asset('assets/images/bg_4.jpg') }}');">
