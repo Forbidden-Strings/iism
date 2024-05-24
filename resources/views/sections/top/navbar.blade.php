@@ -1,7 +1,8 @@
 <!-- nav bar starts here ...! -->
 <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
     <div class="container">
-        <a class="navbar-brand" href="{{url("/")}}"> <img class="logo" src="{{asset('assets/images/LOGO.png')}}" alt="logo" /></a>
+        <a class="navbar-brand" href="{{url("/")}}"> <img class="logo" src="{{asset('assets/images/LOGO.png')}}" alt="logo" /> 
+           <span class="text-loco"> INTERNATIONAL INSTITUTE OF SECURITIES MARKET </span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="oi oi-menu"><i class="fa-solid fa-bars"></i></span>
             Menu

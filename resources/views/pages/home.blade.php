@@ -609,7 +609,7 @@ offline course ends here --}}
                         </div>
                         <div class="text">
                             <!-- <strong class="number" data-number="100%">%</strong> -->
-                            <span> 100 % PLACEMENT ASSISTANCE</span>
+                            <span> 100 % PLACEMENT ASSISTANCE </span>
                         </div>
                     </div>
                 </div>
@@ -620,7 +620,7 @@ offline course ends here --}}
                         </div>
                         <div class="text">
                             <!-- <strong class="number" data-number="4500">0</strong> -->
-                            <span>FREE STUDY MATERIAL</span>
+                            <span> GET ALL FREE STUDY MATERIAL  ...!  </span>
                         </div>
                     </div>
                 </div>
